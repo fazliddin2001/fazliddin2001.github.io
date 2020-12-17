@@ -1,0 +1,25 @@
+.card {
+margin-left: .5rem;
+}
+.card-image-top {
+	height: 18rem;
+	transition: transform .5;
+}
+.card-image-top:hover {
+	transform: scale(1.1);
+}
+nav {
+	font-size: 1.5rem;
+}
+.headline {
+	margin-bottom: 1rem;
+}
+.headline > h3 {
+	padding-left: 1rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+.navbar-toggler-icon{
+	height: 2em;
+	width: 2em;
+}
