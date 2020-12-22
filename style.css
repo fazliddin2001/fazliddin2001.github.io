@@ -23,3 +23,31 @@ nav {
 	height: 2em;
 	width: 2em;
 }
+.search-form {
+	width: 100%;
+	
+}
+input.form-control {
+	background-color: #fff !important;
+}
+.inner {
+	margin: 0 15px;
+}
+input {
+	background-color: #fff !important;
+}
+.bg-dark {
+	background-color: #570554 !important;
+}
+.navbar .nav-link {
+	color: white !important;
+}
+.nav-link:hover {
+	background-color: #fff !important;
+	color: black !important;
+	font-weight: bold;
+}
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+	background-color: #570554 !important;
+}
