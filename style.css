@@ -5,9 +5,9 @@ margin-left: .5rem;
 	height: 18rem;
 	transition: transform .5;
 }
-.card-image-top:hover {
+/*.card-image-top:hover {
 	transform: scale(1.1);
-}
+}*/
 nav {
 	font-size: 1.5rem;
 }
@@ -18,6 +18,7 @@ nav {
 	padding-left: 1rem;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
+	background: -webkit-linear-gradient(left, #570554, #f6cfff) !important;
 }
 .navbar-toggler-icon{
 	height: 2em;
@@ -50,4 +51,45 @@ input {
 .carousel-control-next-icon, 
 .carousel-control-prev-icon {
 	background-color: #570554 !important;
+}
+.menu {
+	padding: 0px !important;
+}
+.header {
+	padding-left: .5rem!important;
+	font-weight: bold;
+	color: black;
+}
+
+div.container-fluid {
+	padding: 0px;
+}
+.social img {
+	height: 5rem;
+	width: 5rem;
+}
+
+.unknown-title {
+    color: white;
+    font-size: 120%;
+    background: -webkit-linear-gradient(left, #570554, white);
+	padding: 5px;
+}
+
+.dropdown-menu {
+	padding: 0px;
+}
+
+.dropdown-menu .b-right {
+	padding-right: 2rem;
+	border-right: 1px gray solid;
+}
+/*** desktop hover dropdown effect  **/
+
+@media all and (min-width: 750px) {
+	.dropdown-toggle::after {display: none;}
+	.navbar .nav-item .dropdown-menu{ display: none !important; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: flex !important; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
