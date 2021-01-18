@@ -76,13 +76,36 @@ div.container-fluid {
 	padding: 5px;
 }
 
-.dropdown-menu {
-	padding: 0px;
+.dropdown-item {
+	padding-right: 2rem;
+}
+.navbar-nav {
+	min-width: 100% !important;
+}
+.dropdown {
+	text-align: center;
+	min-width: 20%;
 }
 
-.dropdown-menu .b-right {
-	padding-right: 2rem;
-	border-right: 1px gray solid;
+.dropdown-menu .header {
+	font-size: 2rem;
+}
+.dropdown-item {
+	font-size: 1.5rem;
+}
+
+.news .card {
+	min-width: 32.5%;
+}
+
+.navbar:first-of-type {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.menu-align .dropdown-menu{
+	position: absolute;
+	top: 50px;
+	left: -300px;
 }
 /*** desktop hover dropdown effect  **/
 
